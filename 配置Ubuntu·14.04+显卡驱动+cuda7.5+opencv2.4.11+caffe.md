@@ -273,3 +273,30 @@ sudo apt-get install build-essential libgtk2.0-dev libjpeg-dev libtiff5-dev libj
 ## （3）中间可能会遇到找不到libcudart.so.7.5的问题 ##
 
     sudo ln -s /usr/local/cuda/lib64/libcudart.so /usr/lib/libcudart.so.7.5
+
+# 8.MATLAB安装 #
+
+## (1)挂载MATLAB镜像 ##
+
+    sudo mount xx.iso /mnt -o loop
+
+## (2)安装MATLAB ##
+
+    cd /mnt
+    sudo ./install
+
+选择“Use a File Installation Key”，并点击Next，下一步选择“Yes”，并点击Next
+注册码填写12345-67890-12345-67890，并点击Next.
+
+## (3)激活MATLAB ##
+
+
+安装结束前，会要求输入License文件
+选择Crack文件夹中的license_405329_R2014a.lic
+将Crack/Linux文件夹中的libmwservices.so覆盖至安装目录：
+
+	sudo cp Linux/libmwservices.so /usr/local/MATLAB/R2014a/bin/glnxa64
+安装完成。
+
+参考网站：[http://blog.csdn.net/ws_20100/article/details/48859951](http://blog.csdn.net/ws_20100/article/details/48859951)
+
