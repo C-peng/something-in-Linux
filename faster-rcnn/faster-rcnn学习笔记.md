@@ -1,6 +1,10 @@
 ## 1.faster-rcnn各层的计算过程 ##
 
-参见下面的网站：[http://blog.csdn.net/sloanqin/article/details/51545125](http://blog.csdn.net/sloanqin/article/details/51545125)
+参见下面的网站：
+
+[http://blog.csdn.net/sloanqin/article/details/51545125](http://blog.csdn.net/sloanqin/article/details/51545125)
+
+[http://blog.csdn.net/XZZPPP/article/details/51582810](http://blog.csdn.net/XZZPPP/article/details/51582810)
 
 ## 2.faster-rcnn文献的中文翻译 ##
 

@@ -164,7 +164,11 @@ Loss层为损失函数层，头文件定义在src/caffe/include/caffe/loss_layer
 参见网站[http://www.cnblogs.com/denny402/p/5070928.html](http://www.cnblogs.com/denny402/p/5070928.html)
 
 
-妈的，不想写了，，其余的参见[http://blog.csdn.net/mduanfire/article/details/51412616](http://blog.csdn.net/mduanfire/article/details/51412616)，
+妈的，不想写了，，其余的参见
+
+[http://caffe.berkeleyvision.org/tutorial/layers.html](http://caffe.berkeleyvision.org/tutorial/layers.html)（官网）
+
+[http://blog.csdn.net/mduanfire/article/details/51412616](http://blog.csdn.net/mduanfire/article/details/51412616)(推荐)
 
 [http://blog.csdn.net/column/details/caffe-source-clue.html](http://blog.csdn.net/column/details/caffe-source-clue.html)
 
@@ -175,3 +179,18 @@ caffe的运行提供三种接口：c++接口（命令行）、python接口和mat
 caffe的c++主程序（caffe.cpp)放在根目录下的tools文件夹内, 当然还有一些其它的功能文件，如：convert_imageset.cpp, train_net.cpp, test_net.cpp等也放在这个文件夹内。经过编译后，这些文件都被编译成了可执行文件，放在了 ./build/tools/ 文件夹内。因此我们要执行caffe程序，都需要加 ./build/tools/ 前缀。
 
 参见网站：[http://caffe.berkeleyvision.org/tutorial/interfaces.html](http://caffe.berkeleyvision.org/tutorial/interfaces.html)
+
+## 7.caffe的Fine-tuning （调整）##
+
+参见网站：
+
+[http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html](http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html)（官网）
+
+[http://www.cnblogs.com/dupuleng/articles/4312129.html](http://www.cnblogs.com/dupuleng/articles/4312129.html)
+
+
+## 8.caffe训练自己的数据 ##
+
+参见网站：
+
+[http://caffe.berkeleyvision.org/gathered/examples/imagenet.html](http://caffe.berkeleyvision.org/gathered/examples/imagenet.html)
