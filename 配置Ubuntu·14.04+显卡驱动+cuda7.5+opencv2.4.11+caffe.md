@@ -300,3 +300,19 @@ sudo apt-get install build-essential libgtk2.0-dev libjpeg-dev libtiff5-dev libj
 
 参考网站：[http://blog.csdn.net/ws_20100/article/details/48859951](http://blog.csdn.net/ws_20100/article/details/48859951)
 
+
+# 9.cuda和驱动的卸载 #
+
+## 卸载 cuda toolkit ##
+
+cuda默认安装在/etc/local/cuda-7.0下,用下面的命令卸
+
+
+    sudo /usr/local/cuda-7.0/bin/uninstall_cuda_7.0.pl
+
+## 卸载nvidia驱动 ##
+
+    sudo /usr/bin/nvidia-uninstall
+
+
+
